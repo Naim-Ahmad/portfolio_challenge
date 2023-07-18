@@ -148,3 +148,47 @@ address p {
   font-size: 18px;
   font-weight: 500;
 }
+
+/* project section styles */
+.project-card-items,
+.blog-item {
+  display: flex;
+  border-radius: 12px;
+  background: #fff;
+  padding: 18px;
+  align-items: center;
+  gap: 34px;
+}
+.project-card-items img {
+  border-radius: 12px;
+}
+.project-card-items {
+  margin: 36px 0;
+}
+/* blog section styles */
+.blog-item {
+  margin: 36px 0;
+}
+/* experience section styles */
+.experience-section {
+  border-radius: 12px;
+  background: #fff;
+  padding: 22px 17px;
+  margin: 36px 0;
+}
+.experience-card {
+  display: flex;
+  gap: 16px;
+  margin: 36px 0;
+}
+.exp-content time {
+  color: #828282;
+  font-size: 14px;
+  font-weight: 500;
+}
+/* hobbies section styles */
+.hobbies {
+  border-radius: 12px;
+  background: #fff;
+  padding: 22px;
+}
